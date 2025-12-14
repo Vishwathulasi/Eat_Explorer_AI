@@ -70,7 +70,7 @@ Includes restaurant name, cuisine, cost, location, reviews, popularity, and food
 Converted into a unified JSON format for efficient offline use
 
 Installation
-git clone https://github.com/Vishwathulasi/Eat_Explorer.git
+git clone https://github.com/Vishwathulasi/Eat_Explorer_AI.git
 cd Eat_Explorer
 Backend and frontend installation steps can be added here depending on your structure.
 
