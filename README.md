@@ -1,7 +1,5 @@
-# 🍽️ Eat Explorer
-### Intelligent Food Recommendation System
-
----
+🍽️ Eat Explorer
+Intelligent Food Recommendation System
 📑 Table of Contents
 Overview
 
@@ -15,179 +13,167 @@ Setup
 
 How to Use
 
-
-## 📘 Project Overview
-
-**Eat Explorer** is an AI-powered food discovery assistant that recommends the best restaurants based on natural, conversational user queries.
-
+📘 Project Overview
+Eat Explorer is an AI-powered food discovery assistant that recommends the best restaurants based on natural, conversational user queries.
 It understands phrases like:
 
-> *“something spicy under 200 near me”*
+“something spicy under 200 near me”
 
-and converts them into structured attributes using NLP. These attributes pass through a **multi-stage scoring pipeline** and a **review-enhanced reranking system** to generate accurate, meaningful, and human-friendly recommendations.
+and converts them into structured attributes using NLP. These attributes pass through a multi-stage scoring pipeline and a review-enhanced reranking system to generate accurate, meaningful, and human-friendly recommendations.
 
-The system operates **fully offline** using a curated dataset and includes:
+The system operates fully offline using a curated dataset and includes:
 
-- NLP parsing  
-- Scoring logic  
-- Review intelligence  
-- Conversational response generation  
+NLP parsing
 
----
+Scoring logic
 
-## 🔍 NLP & Recommendation Strategy
+Review intelligence
 
-Eat Explorer uses a **hybrid intelligence pipeline** combining NLP, scoring, and review-based reranking.
+Conversational response generation
 
----
+🔍 NLP & Recommendation Strategy
+Eat Explorer uses a hybrid intelligence pipeline combining NLP, scoring, and review-based reranking.
 
-## 🧠 1. NLP Attribute Extraction
-
+🧠 1. NLP Attribute Extraction
 Gemini NLP extracts structured attributes from user queries:
 
-- Cuisine  
-- Dish  
-- Mood  
-- Budget  
-- Distance  
-- Food style  
-- Additional constraints  
+Cuisine
 
-This converts free-form text into **machine-processable attributes**.
+Dish
 
----
+Mood
 
-## 📊 2. Scoring Pipeline
+Budget
 
-Each restaurant receives a **baseline score** based on:
+Distance
 
-- Cuisine match  
-- Dish relevance  
-- Budget compatibility  
-- Distance proximity  
-- Popularity score  
-- Food style alignment  
+Food style
 
-This determines the **initial ranking**.
+Additional constraints
 
----
+This converts free-form text into machine-processable attributes.
 
-## 📝 3. Review Intelligence Module
+📊 2. Scoring Pipeline
+Each restaurant receives a baseline score based on:
 
-Enhances ranking quality using **offline review analysis**:
+Cuisine match
 
-- Semantic similarity between query & reviews  
-- Token overlap scoring  
-- Positive-review-only filtering  
-- Short highlight extraction  
+Dish relevance
 
-Restaurants with strong **review alignment** receive a ranking boost.
+Budget compatibility
 
----
+Distance proximity
 
-## 🏆 4. Final Reranking
+Popularity score
 
+Food style alignment
+
+This determines the initial ranking.
+
+📝 3. Review Intelligence Module
+Enhances ranking quality using offline review analysis:
+
+Semantic similarity between query & reviews
+
+Token overlap scoring
+
+Positive-review-only filtering
+
+Short highlight extraction
+
+Restaurants with strong review alignment receive a ranking boost.
+
+🏆 4. Final Reranking
 The system blends:
 
-- Base score  
-- Review-match score  
+Base score
 
-**Result:** context-aware, user-aligned restaurant recommendations.
+Review-match score
 
----
+Result: context-aware, user-aligned restaurant recommendations.
 
-## 📈 Analysis & Output Features
-
+📈 Analysis & Output Features
 The system provides:
 
-- Global reasoning explaining recommendation logic  
-- Clean, conversational responses (no internal data leakage)  
-- Structured restaurant list (`recommendations[]`)  
-- Positive review highlights  
-- **Surprise-Me Mode** for intelligent random suggestions  
+Global reasoning explaining recommendation logic
 
----
+Clean, conversational responses (no internal data leakage)
 
-## 🛠️ Tech Stack
+Structured restaurant list (recommendations[])
 
-### Backend
-- FastAPI  
-- Gemini API (NLP extraction)  
-- Custom Scoring Engine  
-- Review Boost Engine  
-- Pandas (CSV processing)  
-- Uvicorn Server  
+Positive review highlights
 
-### Frontend
-- React  
-- React Router  
-- Axios  
-- Vite  
+Surprise-Me Mode for intelligent random suggestions
 
----
+🛠️ Tech Stack
+Backend
+FastAPI
 
-## 📦 Setup & Installation
+Gemini API (NLP extraction)
 
-### Prerequisites
-- Python 3.9+  
-- Node.js 16+  
-- Gemini API Key  
+Custom Scoring Engine
 
----
+Review Boost Engine
 
-## 💾 Clone the Repository
+Pandas (CSV processing)
 
-```bash
+Uvicorn Server
+
+Frontend
+React
+
+React Router
+
+Axios
+
+Vite
+
+📦 Setup & Installation
+Prerequisites
+Python 3.9+
+
+Node.js 16+
+
+Gemini API Key
+
+💾 Clone the Repository
+git clone https://github.com/Vishwathulasi/Eat_Explorer_AI.git
+cd Eat_Explorer_AI
 🔙 Backend Setup
-Create Virtual Environment
+# Create Virtual Environment
 python -m venv venv
 
-Activate Environment
-
-Windows
-
+# Activate Environment
+# Windows
 venv\Scripts\activate
-
-
-Mac / Linux
-
+# Mac / Linux
 source venv/bin/activate
 
-Install Dependencies
+# Install Dependencies
 pip install -r requirements.txt
 
-Environment Variables
-
-Create a .env file:
-
+# Environment Variables
+# Create a .env file:
 GEMINI_API_KEY=your_api_key_here
 
-Start Backend
+# Start Backend
 uvicorn main:app --reload
-
-
 Backend URL:
-
 http://localhost:8000
 
 🖥️ Frontend Setup
-Go to Frontend
 cd frontend
 
-Install Packages
+# Install Packages
 npm install
 
-Start Frontend
+# Start Frontend
 npm run dev
-
-
 Frontend URL:
-
 http://localhost:5173
 
 🚀 How to Use Eat Explorer
 1. Enter Your Query
-
 Examples:
 
 spicy biryani under 200 near me
@@ -199,7 +185,6 @@ comfort food after a long day
 NLP extracts all attributes automatically.
 
 2. Receive Recommendations
-
 You get:
 
 Ranked restaurant list
@@ -211,7 +196,6 @@ Positive review highlights
 Full metadata inside recommendations[]
 
 3. Surprise Me Mode
-
 Generates an intelligent random suggestion based on:
 
 Popularity
@@ -219,5 +203,4 @@ Popularity
 Review positivity
 
 Cuisine variety
-git clone https://github.com/Vishwathulasi/Eat_Explorer_AI.git
-cd Eat_Explorer_AI
+
