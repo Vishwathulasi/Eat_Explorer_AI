@@ -5,7 +5,7 @@
 **Table of Contents**
 * [Project Overview](#-project-overview)
 * [NLP and Recommendation Strategy](#-nlp--recommendation-strategy)
-* [Tech Stack](#-tech-stack)
+* [Tech Stack](#%EF%B8%8F-tech-stack)
 * [Setup and Installation](#-setup--installation)
 
 ---
