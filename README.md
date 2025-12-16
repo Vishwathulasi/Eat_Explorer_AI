@@ -5,7 +5,7 @@
 **Table of Contents**
 * [Project Overview](#-project-overview)
 * [NLP and Recommendation Strategy](#-nlp--recommendation-strategy)
-* [Tech Stack](#--tech-stack)
+* [Tech Stack](#-tech-stack)
 * [Setup and Installation](#-setup--installation)
 
 ---
@@ -33,7 +33,6 @@ The system operates **fully offline** using a curated dataset and includes:
 ## 🔍 NLP & Recommendation Strategy
 
 Eat Explorer uses a **hybrid intelligence pipeline** combining NLP, scoring, and review-based reranking.
-
 ![User Request](https://github.com/user-attachments/assets/332621b0-7daa-47ab-9f38-07a2c711c4a6)
 
 ---
