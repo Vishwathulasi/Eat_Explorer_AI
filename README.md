@@ -4,8 +4,8 @@
 ---
 **Table of Contents**
 * [Project Overview](#-project-overview)
-* [NLP and Recommendation Stratergy](#-nlp--recommendation-stratergy)
-* [Tech Stack](#-tech-stack)
+* [NLP and Recommendation Strategy](#-nlp--recommendation-strategy)
+* [Tech Stack](#--tech-stack)
 * [Setup and Installation](#-setup--installation)
 
 ---
@@ -33,6 +33,7 @@ The system operates **fully offline** using a curated dataset and includes:
 ## 🔍 NLP & Recommendation Strategy
 
 Eat Explorer uses a **hybrid intelligence pipeline** combining NLP, scoring, and review-based reranking.
+
 ![User Request](https://github.com/user-attachments/assets/332621b0-7daa-47ab-9f38-07a2c711c4a6)
 
 ---
@@ -73,8 +74,7 @@ This determines the **initial ranking**.
 Enhances ranking quality using **offline review analysis**:
 
 - Semantic similarity between query & reviews  
-- Token overlap scoring  
-- Positive-review-only filtering  
+- Token overlap scoring   
 - Short highlight extraction  
 
 Restaurants with strong **review alignment** receive a ranking boost.
