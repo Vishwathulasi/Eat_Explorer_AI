@@ -2,6 +2,18 @@
 ### Intelligent Food Recommendation System
 
 ---
+📑 Table of Contents
+Overview
+
+NLP & Recommendation Strategy
+
+Features
+
+Tech Stack
+
+Setup
+
+How to Use
 
 ## 📘 Project Overview
 
