@@ -15,6 +15,7 @@ Setup
 
 How to Use
 
+
 ## 📘 Project Overview
 
 **Eat Explorer** is an AI-powered food discovery assistant that recommends the best restaurants based on natural, conversational user queries.
