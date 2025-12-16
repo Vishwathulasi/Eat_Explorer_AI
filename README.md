@@ -3,10 +3,10 @@
 
 ---
 **Table of Contents**
-* [Project Overview](#project-overview)
-* [NLP and Recommendation Stratergy](#nlp-&-recommendation-stratergy)
-* [Tech Stack](#tech-stack)
-* [Setup and Installation](#setup-&-installation)
+* [Project Overview](#-project-overview)
+* [NLP and Recommendation Stratergy](#-nlp--recommendation-stratergy)
+* [Tech Stack](#-tech-stack)
+* [Setup and Installation](#-setup--installation)
 
 ---
 
@@ -107,12 +107,11 @@ The system provides:
 ## 🛠️ Tech Stack
 
 ### Backend
-- FastAPI  
+- Flask  
 - Gemini API (NLP extraction)  
 - Custom Scoring Engine  
 - Review Boost Engine  
-- Pandas (CSV processing)  
-- Uvicorn Server  
+- Pandas (CSV processing)    
 
 ### Frontend
 - React  
@@ -159,7 +158,7 @@ Create a .env file:
 GEMINI_API_KEY=your_api_key_here
 
 Start Backend
-uvicorn main:app --reload
+python -m app.main
 
 
 Backend URL:
