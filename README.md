@@ -25,8 +25,7 @@ The system operates **fully offline** using a curated dataset and includes:
 ## 🔍 NLP & Recommendation Strategy
 
 Eat Explorer uses a **hybrid intelligence pipeline** combining NLP, scoring, and review-based reranking.
-<img width="597" height="310" alt="image" src="https://github.com/user-attachments/assets/bd9999bf-87c2-4fae-ad30-aa35a2335c90" />
-
+![User Request](https://github.com/user-attachments/assets/332621b0-7daa-47ab-9f38-07a2c711c4a6)
 
 ---
 
