@@ -2,6 +2,14 @@
 ### Intelligent Food Recommendation System
 
 ---
+**Table of Contents**
+* [Project Overview](#project-overview)
+* [NLP and Recommendation Stratergy](#nlp-&-recommendation-stratergy)
+* [Tech Stack](#tech-stack)
+* [Setup and Installation](#setup-&-installation)
+
+---
+
 
 ## 📘 Project Overview
 
